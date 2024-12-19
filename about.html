@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Phytoplankton Protectors</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #ffffff;
+            color: #333;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            border-bottom: 1px solid #ccc;
+        }
+        .logo {
+            color: #33cc33;
+            font-weight: bold;
+            font-size: 18px;
+        }
+        nav {
+            display: flex;
+            gap: 20px;
+        }
+        nav a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: none;
+        }
+        nav a.active {
+            background-color: #ccffcc;
+            color: #33cc33;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+        main {
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            justify-content: flex-start;
+            padding: 40px 20px;
+            text-align: left;
+            gap: 20px;
+        }
+        .profile-image {
+            width: 200px;
+            height: auto;
+            border-radius: 10px;
+        }
+        h1 {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+        p {
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+        .centered-text {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 18px;
+        }
+        .large-header {
+            text-align: center;
+            font-size: 48px;
+            margin-top: 40px;
+        }
+        ol {
+            margin-top: 20px;
+            padding-left: 0;
+            font-size: 20px;
+        }
+        ol li {
+            margin-bottom: 10px;
+            font-size: 24px;
+            font-weight: bold;
+            text-align: right;
+            list-style-position: inside;
+        }
+        .info-section {
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            justify-content: flex-end;
+            gap: 20px;
+            margin-top: 20px;
+            padding: 10px;
+        }
+        .info-section img {
+            width: 450px;
+            height: auto;
+            border-radius: 10px;
+            transition: transform 0.3s ease;
+        }
+        .info-section img:hover {
+            transform: scale(1.05);
+        }
+        .info-section p {
+            max-width: 500px;
+            text-align: right;
+        }
+        .info-header {
+            text-align: right;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .info-header2{
+            text-align: left;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .info-header3{
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .citation {
+            font-size: 14px;
+            color: #555;
+            text-align: right;
+            margin-top: 5px;
+        }
+        .info-section.left-align {
+            justify-content: flex-start;
+        }
+        .info-section.left-align p {
+            text-align: left;
+        }
+        .info-section.left-align .info-header {
+            text-align: left;
+        }
+        .info-section.center-align {
+            justify-content: center;
+            text-align: center;
+        }
+        .info-section.center-align p {
+            text-align: center;
+        }
+        .info-section.center-align .citation {
+            text-align: center;
+        }
+        footer {
+            background-color: #f4f4f4;
+            padding: 20px;
+            text-align: center;
+            margin-top: 40px;
+            border-top: 1px solid #ccc;
+        }
+        footer p {
+            font-size: 16px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        footer ul {
+            list-style: none;
+            padding: 0;
+        }
+        footer li {
+            margin: 5px 0;
+        }
+        footer a {
+            text-decoration: none;
+            color: #33cc33;
+        }
+        footer a:hover {
+            color: #ffffff;
+            background-color: #33cc33;
+            padding: 5px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">Phytoplankton Protectors</div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html" class="active">About us</a>
+			<a href="getinvolved.html" >Get Involved</a>
+            <a href="feedback.html">Feedback</a>
+        </nav>
+    </header>
+    <main>
+        <img src="me.jpg" alt="Picture of the author" class="profile-image">
+        <div>
+            <h1>Hi! My name is Prince Jayrick E. Belmes</h1>
+            <p>I am a G9 scholar from PSHS-CRC advocating for a specific type of organism that doesn’t get enough credit: The phytoplankton.</p>
+        </div>
+    </main>
+    <p class="centered-text">Phytoplankton are small microscopic aquatic organisms that are present in ocean or freshwater systems. Did you know the name comes from the Greek words of "plant" and "wanderer"? Neither did I until I started researching more into these little organisms. Why am I advocating for phytoplankton? That's a great question! I will explain the importance of phytoplankton and why life as we know it needs phytoplankton to survive.</p>
+    <h1 class="large-header">Why are phytoplankton important?</h1>
+    <ol>
+        <li class="info-header">Phytoplankton are the foundation of the aquatic food system.</li>
+    </ol>
+    <div class="info-section">
+        <p>NASA states that phytoplankton are the primary producers that feed everything from microorganisms to entire whales. Without phytoplankton, marine life would have trouble surviving with no primary food source to feed the prey, and thus would lead to mass starvation of marine life.</p>
+        <div>
+            <img src="carbo.jpg" alt="Phytoplankton blooms">
+            <div class="citation">Image Credit: NASA Earth Observatory</div>
+        </div>
+    </div>
+
+    <ol start="2">
+      <li class="info-header2">Phytoplankton produce half of Earth's oxygen.</li>
+    </ol>
+
+    <div class="info-section left-align">
+        <p>These microscopic organisms are responsible for producing approximately 50% of the oxygen in Earth's atmosphere, playing a crucial role in maintaining breathable air for life on the planet.</p>
+        <div>
+            <img src="plankt.jpg" alt="Pictures of phytoplankton">
+            <div class="citation">Image Credit: Enviro Wiki</div>
+        </div>
+    </div>
+
+    <ol start="3">
+        <li class="info-header3">Phytoplankton consume CO2.</li>
+    </ol>
+
+    <div class="info-section center-align">
+        <p>When they consume CO2 and release O2 as a waste product, they actively regulate climate change as well. If phytoplankton went extinct, our climate change would be drastically worsened as the main consumer of CO2 cannot release O2 anymore, heavily impacting all life forms.</p>
+        <div>
+            <img src="co2.jpg" alt="CO2 consumption by phytoplankton">
+            <div class="citation">Science Direct</div>
+        </div>
+    </div>
+
+    <footer>
+        <p>Image Credits:</p>
+        <ul>
+            <li>
+                <a href="https://earthobservatory.nasa.gov/features/Phytoplankton" target="_blank">
+                    Carbon Flux - NASA Earth Observatory
+                </a>
+            </li>
+            <li>
+                <a href="https://www.enviro.wiki/index.php?title=Phytoplankton_(Algae)_Blooms" target="_blank">
+                    Phytoplankton Images - Enviro Wiki
+                </a>
+            </li>
+            <li>
+                <a href="https://www.sciencedirect.com/science/article/pii/S0048969718309811" target="_blank">
+                    CO2 Consumption - Science Direct
+                </a>
+            </li>
+        </ul>
+		<p>&copy; 2024 Phytoplankton Protectors. All rights reserved.</p>
+    </footer>
+</body>
+</html>
